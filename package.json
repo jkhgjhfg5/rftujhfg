@@ -1,0 +1,7 @@
+{
+  "name":"nobiksh-news-cms","version":"1.0.0","private":true,
+  "scripts":{"dev":"next dev","build":"prisma generate && next build","start":"next start","lint":"next lint","db:push":"prisma db push","db:migrate":"prisma migrate dev","db:seed":"tsx prisma/seed.ts","prisma:generate":"prisma generate"},
+  "dependencies":{"@prisma/client":"^6.14.0","@aws-sdk/client-s3":"^3.879.0","bcryptjs":"^3.0.2","dompurify":"^3.2.6","isomorphic-dompurify":"^2.26.0","jose":"^6.0.12","lucide-react":"^0.468.0","next":"^15.5.0","nodemailer":"^7.0.3","react":"^19.1.1","react-dom":"^19.1.1","zod":"^4.0.17"},
+  "devDependencies":{"@types/node":"^22.15.0","@types/nodemailer":"^6.4.17","@types/react":"^19.1.9","@types/react-dom":"^19.1.7","prisma":"^6.14.0","tsx":"^4.20.3","typescript":"^5.8.3"},
+  "engines":{"node":">=20.9.0"}
+}
